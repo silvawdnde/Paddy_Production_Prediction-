@@ -1,0 +1,12 @@
+# Runtime dependencies for the updated Streamlit app and notebook pickle.
+# For safest pickle compatibility, use the same versions as when the notebook ran.
+streamlit>=1.35,<2
+pandas>=2.0,<3
+numpy>=1.24,<3
+plotly>=5.20,<7
+openpyxl>=3.1,<4
+scikit-learn==1.6.1  # Matches the version used to train the uploaded Random Forest
+xgboost>=2.0,<4
+catboost>=1.2,<2
+lightgbm>=4.0,<5
+interpret-core>=0.5,<1

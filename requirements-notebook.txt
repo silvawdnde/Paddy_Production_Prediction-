@@ -1,0 +1,7 @@
+# Additional packages for executing the MSc assignment notebook.
+-r requirements.txt
+matplotlib>=3.7,<4
+seaborn>=0.12,<1
+shap>=0.43,<1
+lime>=0.2,<1
+notebook>=7,<8
